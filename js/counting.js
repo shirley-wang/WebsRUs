@@ -1,5 +1,7 @@
 function popup() {
-alert("Hello World")
+    "use strict";
+    var x = document.getElementById("para");
+    x.style.fontSize = "50px";
 }
 
-<button onclick="popup()">Click Me!</button>
+
